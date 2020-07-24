@@ -1,0 +1,50 @@
+*{
+    font-family: 'Squada One', cursive;
+    font-size: 10vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #242124;
+    color: #FCFC62;
+}
+canvas{
+    /* border: 1px solid #FCFC62; */
+    margin: 5px 0;
+}
+#time{
+    color: #FCFC62;
+    font-size: 70px;
+    text-shadow: 0 0 5px #FCFC62;
+}
+.dropbutton{
+    width: 250px;
+    background-color: #FCFC62;
+    color: #242124;
+    padding: 0 10px;
+    margin-top: 15px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    border: 1px solid #FCFC62;
+    box-sizing: border-box;
+    width: 100%;
+}
+.option{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+}
+#tokyo:hover{background-color: #F92A82; color: #242124;}
+#newYork:hover{background-color: #FF8C42; color: #242124;}
+#london:hover{background-color: #7CEA9C; color: #242124;}
+#warsaw:hover{background-color: #FCFC62; color: #242124;}

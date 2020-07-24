@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Clockin..</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <canvas id="canvas" width=250 height=250></canvas>
+  <h6 id="time"></h6>
+  <div class="dropdown">
+    <button class="dropbutton" id="dropID" onclick="manipulateDropdown()" onmouseenter="glow()"
+      onmouseleave="stopGlow()">Warsaw</button>
+    <div id="myDropdown" class="dropdown-content">
+      <div id="tokyo" class="option" onclick="changeLocation('tokyo')">Tokyo</div>
+      <div id="newYork" class="option" onclick="changeLocation('newYork')">New York</div>
+      <div id="london" class="option" onclick="changeLocation('london')">London</div>
+      <div id="warsaw" class="option" onclick="changeLocation('warsaw')">Warsaw</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
