@@ -17,6 +17,7 @@ function changeLocation(city){
             ctx.fillStyle = tokyoColor;
             currentColor = tokyoColor;
             currentCity = "tokyo";
+            document.getElementById("dropID").style.boxShadow = "0 0 10px " + currentColor;
             break;
 
         case "newYork":
@@ -28,6 +29,7 @@ function changeLocation(city){
             ctx.fillStyle = newYorkColor;
             currentColor = newYorkColor;
             currentCity = "newYork";
+            document.getElementById("dropID").style.boxShadow = "0 0 10px " + currentColor;
             break;
 
         case "london":
@@ -39,6 +41,7 @@ function changeLocation(city){
             ctx.fillStyle = londonColor;
             currentColor = londonColor;
             currentCity = "london";
+            document.getElementById("dropID").style.boxShadow = "0 0 10px " + currentColor;
             break;
 
         case "warsaw":
@@ -50,6 +53,7 @@ function changeLocation(city){
             ctx.fillStyle = warsawColor;
             currentColor = warsawColor;
             currentCity = "warsaw";
+            document.getElementById("dropID").style.boxShadow = "0 0 10px " + currentColor;
             break;
     }
     document.getElementById("time").style.textShadow = "0 0 5px " + currentColor;
@@ -59,13 +63,13 @@ function changeLocation(city){
 let isActive = false;
 
 
-function glow(){
-    if(!isActive){
-        document.getElementById("dropID").style.boxShadow = "0 0 20px " + currentColor;
-    }
-}
+// function glow(){
+//     if(!isActive){
+//         document.getElementById("dropID").style.boxShadow = "0 0 20px " + currentColor;
+//     }
+// }
 
-function stopGlow(){document.getElementById("dropID").style.boxShadow = "none";}
+//function stopGlow(){document.getElementById("dropID").style.boxShadow = "none";}
 
 function manipulateDropdown(){
     if(!isActive){

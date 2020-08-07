@@ -17,12 +17,15 @@ canvas{
     text-shadow: 0 0 5px #FCFC62;
 }
 .dropbutton{
-    width: 250px;
+    width: 300px;
     background-color: #FCFC62;
     color: #242124;
     padding: 0 10px;
     margin-top: 15px;
     border: none;
+    font-size: 0.75rem;
+    outline: none;
+    box-shadow: 0 0 10px #FCFC62;
 }
 .dropdown {
     position: relative;
